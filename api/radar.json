@@ -1,0 +1,32 @@
+{
+  "radar": [
+    {
+      "id": 1,
+      "title": "OSADO BEAR WEEK",
+      "organizer": "OSADO",
+      "location": "Perú — local por anunciar",
+      "event_date": "ABRIL 2027 · MES ANUNCIADO",
+      "source_url": "https://osado.pe/eventos/",
+      "summary": "Marca bear, edición de abril anunciada sin fecha exacta; consultar siempre la web organizadora."
+    },
+    {
+      "id": 2,
+      "title": "MARICONIO",
+      "organizer": "Valetodo Downtown",
+      "location": "Miraflores, Lima",
+      "event_date": "16 OCT 2026 · 19:30",
+      "source_url": "https://www.passline.com/eventos/mariconio-valetodo-downtown",
+      "summary": "Evento +18 publicado en Passline por su organizador. La presencia en el radar no implica alianza con BEARdly."
+    },
+    {
+      "id": 3,
+      "title": "MANSIÓN VALETODO",
+      "organizer": "Valetodo Downtown",
+      "location": "Miraflores, Lima",
+      "event_date": "31 OCT 2026 · 19:30",
+      "source_url": "https://www.passline.com/eventos/mansion-valetodo-halloween-valetodo-downtown",
+      "summary": "Edición Halloween +18 anunciada en Passline; condiciones y disponibilidad en la web de origen."
+    }
+  ],
+  "disclosure": "Curaduría de BEARdly; no somos organizadores de eventos de terceros."
+}
