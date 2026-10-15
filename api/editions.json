@@ -8,33 +8,6 @@
       "details": "Edición en evaluación. Convocatoria por etapas con reserva privada y consentimiento.",
       "status": "tentativa",
       "date_text": "21 NOV · PROPUESTA"
-    },
-    {
-      "id": 2,
-      "slug": "camera-obscura",
-      "title": "CÁMARA OBSCURA",
-      "theme": "EDICIÓN AUDIOVISUAL",
-      "details": "Noche curada de luces bajas, retratos, grano y presencia. Aforo por definir.",
-      "status": "concepto",
-      "date_text": "FECHA POR DEFINIR"
-    },
-    {
-      "id": 3,
-      "slug": "feral-studio",
-      "title": "FERAL STUDIO",
-      "theme": "LABORATORIO GENERATIVO",
-      "details": "Sesión creativa de retrato editorial y loops audiovisuales, sin contenido explícito.",
-      "status": "concepto",
-      "date_text": "FECHA POR DEFINIR"
-    },
-    {
-      "id": 4,
-      "slug": "afterimage",
-      "title": "AFTERIMAGE",
-      "theme": "ENCUENTRO / ESCUCHA",
-      "details": "Paisajes sonoros, proyecciones y comunidad adulta en formato reducido.",
-      "status": "concepto",
-      "date_text": "FECHA POR DEFINIR"
     }
   ]
 }
