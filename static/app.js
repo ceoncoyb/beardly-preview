@@ -7,7 +7,7 @@ const text=(tag,cl,val)=>{const n=document.createElement(tag);if(cl)n.className=
 const api=async(url)=>{const path="./api/"+url.split("/").pop()+".json";const r=await fetch(path,{headers:{Accept:"application/json"}});if(!r.ok)throw Error("API "+r.status);return r.json()};
 function drawEditions(items){
  editions.replaceChildren();
- if(!items.length){editions.append(text('p','loading-placeholder','Sin nuevas ediciones publicadas.'));return}
+ if(!items.length){editions.append(text("p","loading-placeholder","No hay ediciones confirmadas para publicar."));return}
  for(const e of items){
   const card=text("article","edition-card","");
   const top=text("div","edition-top","");top.append(text("span","edition-status",allowedStatuses[e.status]||"EN EVALUACIÓN"),text("span","edition-date",e.date_text||"POR DEFINIR"));
@@ -29,8 +29,8 @@ async function load(){
  try{const d=await api("/api/radar");drawRadar(d.radar||[])}
  catch{drawRadar([])}
 }
-const inquiries={general:"Hola, quisiera conocer el universo BEARdly y sus próximas actividades.",
-ediciones:"Hola, quiero información y condiciones de las próximas ediciones BEARdly.",
+const inquiries={general:"Hola, quisiera consultar el estado actual de BEARdly.",
+ediciones:"Hola, quisiera consultar si existen ediciones confirmadas de BEARdly.",
 circulo:"Hola, quiero información de la comunidad privada BEARdly en Discord."};
 let context="general";
 document.querySelectorAll("[data-contact]").forEach(btn=>btn.addEventListener("click",()=>{context=btn.dataset.contact||"general";modal.hidden=false;document.body.style.overflow="hidden";$("#copyStatus").textContent=""}));
