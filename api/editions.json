@@ -1,13 +1,3 @@
 {
-  "editions": [
-    {
-      "id": 1,
-      "slug": "gang-i",
-      "title": "BEARDLY GANG",
-      "theme": "SELECCIÓN / CÍRCULO",
-      "details": "Edición en evaluación. Convocatoria por etapas con reserva privada y consentimiento.",
-      "status": "tentativa",
-      "date_text": "21 NOV · PROPUESTA"
-    }
-  ]
+  "editions": []
 }
