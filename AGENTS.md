@@ -9,3 +9,7 @@ Aplicar la [política rectora de no solapamiento](https://github.com/ceoncoyb/gi
 - No sincronizar backend privado, SQLite, secretos, cuentas o datos de asistentes; no inferir reservas, cobros o fechas aprobadas de objetos con estado `tentativa` o `concepto`.
 
 GitHub primero y Desktop Commander únicamente si hay una dependencia local demostrada. No desplegar automáticamente con base solo en estos archivos.
+
+## Publication gate — 2026-10-20
+
+The preview is not a launch or approval of any offer. Its assets must match the reviewed `beardly-brand-platform/release/public` output. Public editions are confirmed-only; the static radar contains only verified events with future, parseable dates. Keep `noindex` and restrictive `robots.txt`; no memberships, prices, events, or new identity are implied by this repository. Do not deploy or activate offers without explicit approval.
